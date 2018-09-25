@@ -1,0 +1,1 @@
+# stitch-scripts-templates
