@@ -1,1 +1,1 @@
-# stitch-scripts-templates
+# Stitch Scripts templates
