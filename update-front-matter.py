@@ -20,7 +20,7 @@ with open(bare_template_filename, "r") as f:
     notebook_content = json.loads(f.read())
     front_matter = notebook_content["cells"][0]
 
-templates_to_update = ["minimal_postgresql"]
+templates_to_update = ["minimal_postgresql", "minimal_bigquery", "minimal_snowflake"]
 
 for template in templates_to_update:
     template_filename = "{}/{}/template.ipynb".format(TEMPLATE_BASE_PATH, template)
