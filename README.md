@@ -4,10 +4,11 @@
 
 Requirements:
 
-- Python (3)
-- [pipenv](https://pipenv.readthedocs.io/en/latest/#install-pipenv-today)
+- Python (>=3.3)
+- [poetry](https://github.com/sdispater/poetry)
 
 ```bash
+# pyenv local 3.x.x
 make install
 ```
 
